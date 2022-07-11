@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waqar's Luxury Fruit Store</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap">
+</head>
+
+<body>
+
+
+<!--THIS IS MY NAVBAR-->    
+<section>
+<div class="navbar">
+    <a href="index.html">
+        <h2>Waqar's Luxury Fruits</h2>
+    </a>
+
+    <a href="cart.html">
+    <div class="cart">
+        <i class="bi bi-cart2"></i> <!--This cart icon is from Bootstrap-->
+    <div id="cartAmount" class="cartAmount">0</div>
+    </div>
+    </a>
+</div>
+</section>
+
+<!--THIS IS MY HEADER IMAGE-->
+<section>
+<div class="StoreBanner">
+    <img src="images/Store Banner.png">
+</div>
+</section>
+
+<!--THESE ARE MY FRUIT CARDS-->
+<!--fruitcardcontainer = shop
+    fruitcard = item 
+-->
+
+<section>
+<div class="fruitCardContainer" id="fruitCardContainer">
+
+<!--COMMENTED OUT DUE TO JS FUNCTION, AUTO CARD GENERATOR-->    
+    <!--<div class="fruitCard">
+        <img width="346" src="images/YubariKingMelon.webp" alt="">
+    <div class="fruitCardDetails">
+        <h2>Yubari King Melon</h2>
+        <p>These high priced melons are grown in Hokkaido, Japan. This expensive fruit is known for being sweet and flavorful. 
+            What makes them so unique is that their skin is perfectly smooth. Yubari King melons are grown in greenhouses in volcanic ash.</p>
+        <div class="price-quantity">
+            <h2>£200 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" src="images/SembikiyaCherries.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Sembikiya Cherry (Pack of 40)</h2>
+        <p>Sembikiya cherries are grown in small glasshouses.
+            There they are monitored closely to ensure their size, color, and quality meet the exacting requirement for this premium fruit. 
+            For maximum visual appeal, the size and color of each one have to be identical.</p>
+        <div class="price-quantity">
+            <h2>£160 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" src="images/DekoponCitrus.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Dekopon Citrus (Pack of 4)</h2>
+        <p>This unique fruit balances intense sweetness with low acidity to create a wonderfully aromatic fruit experience.
+            They are easy to peel with thin flesh, are seedless, and have meltingly soft flesh.
+            They require an intensive cultivation process in temperature and humidity-controlled glasshouses.
+            Once picked, they are cured for up to 40 days while the sugar level develops, and the acidity drops to under 1%.</p>
+        <div class="price-quantity">
+            <h2>£80 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a> 
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" src="images/TamagoMangoes.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Taiyo no Tomago Mango</h2>
+        <p>The name of these mangoes translates to egg of the sun.
+            They have a high sugar content and spectacular coloring. Their hue can range from the deepest orange or red to purple. 
+            The texture of the pulp is meltingly soft, and even the skin can be eaten.</p>
+        <div class="price-quantity">
+            <h2>£50 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a> 
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" height="230" src="images/SekaIchi Apples.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Seka-Ichi Apples (Pack of 8)</h2>
+        <p> The elevated price is due to its appearance and rarity. 
+            Cultivated since 1974, these Japanese apples can grow up to 38cm wide and weigh close to 1kg per fruit. 
+            One of the largest apple variants in the world, with superb juicy sweetness and crunchy texture. 
+            They’re also washed in honey before being sold.
+        </p>
+        <div class="price-quantity">
+            <h2>£150 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" height="230px" src="images/Buddha Shaped Pears.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Buddha Pears (Pack of 10)</h2>
+        <p>This juicy delight originates from China’s Hebei province, where Mr. Xianzhang Hao has developed an incredible Buddha pear in his backyard.
+            He uses a mold to form the intricate design.</p>
+        <div class="price-quantity">
+            <h2>£90 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" height="230px" src="images/DensukeWatermelon.webp" alt="">
+    <div class="fruitCardDetails">
+        <h2>Densuke Watermelon</h2>
+        <p>Smooth, glossy-black, ball-shaped and sized like a large coconut, the Densuke watermelon is another Japanese invention. 
+            Crunchier, juicier and sweeter than regular watermelons. Only about 10,000 Densuke-s are produced annually, exclusive from Hokkaido. 
+            During growth, the melons are carefully shielded from sunlight to develop their dark sheen; nurtured in rich soil and freshwater.</p>
+        <div class="price-quantity">
+            <h2>£200 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+
+    <div class="fruitCard">
+        <img width="346" src="images/SembikiyaQueenStrawberries.jpg" alt="">
+    <div class="fruitCardDetails">
+        <h2>Sembikiya S'berry (Pack of 12)</h2>
+        <p>Vibrant red, impeccably shaped, topped with perfect green leaves and tastes soothingly sweet. 
+            The Sembikiya Queen Strawberries are named after one of the oldest and most venerable fruit shops in Japan. 
+            Meticulously grown, picked and packaged like individual rubies in gorgeous gift boxes.</p>
+        <div class="price-quantity">
+            <h2>£100 per unit</h2>
+            <div class="buttons">
+                <i class="bi bi-dash-lg"></i>
+                <div class="quantity">0</div>
+                <i class="bi bi-plus-lg"></i>
+            </div>
+        </div>
+        <a href="">Nutritional Info</a>
+    </div>
+    </div>
+</div> -->
+<!--Class targeted inside CSS, id targeted inside JS-->
+<!--Used CSS Grid instead of Flexbox, TODO: Play around with both-->
+</section>
+
+<section>
+    <footer>Testing 1,2,3...</footer>
+</section>
+
+</body>
+<script src="src/script.js"></script>
+</html>
